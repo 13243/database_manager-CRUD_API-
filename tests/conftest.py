@@ -1,7 +1,7 @@
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.database import Base, get_db, DATABASE_URL  # Import the REAL PostgreSQL URL
+from app.database import Base, get_db, DATABASE_URL
 from app.main import app
 from fastapi.testclient import TestClient
 
